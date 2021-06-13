@@ -123,6 +123,13 @@ body {
   font-family: Noto Sans Myanmar;;
 }
 
+.title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #666;
+}
+
 /* header */
 
 .bg-big {
@@ -178,3 +185,8 @@ header {
 }
 
 /* top#index */
+
+.about {
+  margin-top: 12%;
+  margin-bottom: 20%;
+}
