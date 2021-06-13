@@ -142,16 +142,48 @@ header::before {
   display: block;
 }
 
-header ul li a {
+.header-menu {
+}
+
+.header-logo {
+  margin-left: 4%;
+}
+
+.header-logo h1 a {
+  color: #fff;
+  z-index: 10000;
+  color: rgb(255, 236, 239);
   font-weight: bold;
-  /* color: #fff; */
+  /* font-size: 3.5rem; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-list ul {
+  z-index: 10000;
+  color: rgb(255, 236, 239);
+  font-weight: bold;
+  /* font-size: 3.5rem; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-list ul li {
+  display: flex;
+}
+
+.header-list ul li a {
+  font-weight: bold;
+  color: #fff;
 }
 
 .header-title p {
   z-index: 10000;
   color: rgb(255, 236, 239);
   font-weight: bold;
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   position: absolute;
   top: 0;
   left: 0;
