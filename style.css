@@ -179,6 +179,11 @@ header {
 
 /* top#index */
 
+.about p {
+  margin-top: 3%;
+  text-align: center;
+}
+
 /* common */
 
 .wrapper {
